@@ -41,6 +41,7 @@
       </div>
     </section>
     <!-- hero-section-ends -->
+
     <!-- feature-section-starts -->
     <section class="feature-section">
       <div class="relative">
@@ -60,8 +61,9 @@
       </div>
     </section>
     <!-- feature-section-ends -->
+
     <!-- extension section starts -->
-    <section class="extension-section mb-20">
+    <section class="extension-section mt-10">
       <div class="w-3/4 m-auto text-xl text-neut">
         <div>
           <h3 class="text-4xl font-bold text-center text-neut-dark pt-16">
@@ -72,7 +74,7 @@
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </div>
-        <div class=" mt-20 mb-14">
+        <div class=" mt-14">
           <div class="grid grid-cols-3 gap-2">
             <div class="pb-40">
               <div
@@ -96,7 +98,7 @@
               </div>
             </div>
 
-            <div class="pb-40">
+            <div class="">
               <div
                 class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl mt-20"
               >
@@ -118,7 +120,7 @@
               </div>
             </div>
 
-            <div class="pb-40">
+            <div class="">
               <div
                 class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl mt-40"
               >
@@ -144,6 +146,159 @@
       </div>
     </section>
     <!-- extension section endss -->
+    <!-- FAQ section starts -->
+    <section class="faq-section mb-40">
+      <div class="w-3/4 m-auto text-xl text-neut">
+        <div>
+          <h3 class="text-4xl font-bold text-center text-neut-dark pt-16">
+            Frequently Asked Questions
+          </h3>
+          <p class="text-center w-6/12 m-auto leading-9 pt-6">
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us..
+          </p>
+        </div>
+
+        <div class="w-6/12 m-auto mt-10 leading-9">
+          <Accordion>
+            <Accordion-item>
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger" class="w-6/12">
+                <div class="w-full flex justify-between items-center">
+                  <h3
+                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                  >
+                    What is Bookmark?
+                  </h3>
+                  <img
+                    class="w-8 h-5"
+                    src="~/assets/images/icon-arrow.svg"
+                    alt="icon"
+                  />
+                </div>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <div class="pt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </template>
+            </Accordion-item>
+            <Accordion-item>
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger" class="w-6/12">
+                <div class="w-full flex justify-between items-center">
+                  <h3
+                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                  >
+                    How can I request a new browser?
+                  </h3>
+                  <img
+                    class="w-8 h-5"
+                    src="~/assets/images/icon-arrow.svg"
+                    alt="icon"
+                  />
+                </div>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <div class="pt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </template>
+            </Accordion-item>
+            <Accordion-item>
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger" class="w-6/12">
+                <div class="w-full flex justify-between items-center">
+                  <h3
+                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                  >
+                    Is there a mobile app?
+                  </h3>
+                  <img
+                    class="w-8 h-5"
+                    src="~/assets/images/icon-arrow.svg"
+                    alt="icon"
+                  />
+                </div>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <div class="pt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </template>
+            </Accordion-item>
+            <Accordion-item>
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger" class="w-6/12">
+                <div class="w-full flex justify-between items-center">
+                  <h3
+                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                  >
+                    What about other Chromium browsers?
+                  </h3>
+                  <img
+                    class="w-8 h-5"
+                    src="~/assets/images/icon-arrow.svg"
+                    alt="icon"
+                  />
+                </div>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <div class="pt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </template>
+            </Accordion-item>
+            <Accordion-item>
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger" class="w-6/12">
+                <div class="w-full flex justify-between items-center">
+                  <h3
+                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                  >
+                    What is Bookmark?
+                  </h3>
+                  <img
+                    class="w-8 h-5"
+                    src="~/assets/images/icon-arrow.svg"
+                    alt="icon"
+                  />
+                </div>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <div class="pt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </template>
+            </Accordion-item>
+          </Accordion>
+        </div>
+        <div class="flex justify-center p-16">
+          <PryBtn name="More Info" />
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section endss -->
   </div>
 </template>
 
@@ -170,7 +325,8 @@ export default {
   width: 35rem;
 }
 .feature-section,
-.extension-section {
-  @apply mt-40;
+.extension-section,
+.faq-section {
+  @apply mt-20;
 }
 </style>

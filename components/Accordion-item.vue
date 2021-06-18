@@ -61,12 +61,16 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .accordion__item {
   cursor: pointer;
-  padding: 10px 20px 10px 40px;
+  padding: 25px 25px;
   border-bottom: 1px solid #ebebeb;
   position: relative;
+}
+
+.accordion__item:first-child {
+  border-top: 1px solid #ebebeb;
 }
 
 .accordion__trigger {
