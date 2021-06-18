@@ -21,6 +21,10 @@ module.exports = {
           DEFAULT: "hsl(229, 8%, 60%)",
           dark: "hsl(229, 31%, 21%)"
         }
+      },
+      letterSpacing: {
+        morewider: ".2em",
+        morewidest: ".25em"
       }
     }
   },
