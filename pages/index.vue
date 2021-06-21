@@ -3,35 +3,41 @@
     <!-- hero-section-starts -->
     <section class="hero-section">
       <div class="relative">
-        <div class="w-3/4 m-auto text-xl text-neut">
-          <div class="grid grid-cols-2 gap-10 content-area">
-            <div class="h-full flex items-center ">
+        <div class="w-11/12 xl:w-3/4 m-auto md:text-xl text-neut">
+          <div
+            class=" mt-14 lg:mt-0 grid grid-cols-1 lg:grid-cols-2 gap-10 content-area"
+          >
+            <div
+              class="h-full flex items-center order-last lg:order-first mt-44 lg:mt-0"
+            >
               <div>
                 <h2
-                  class="text-6xl font-extrabold tracking-wide text-neut-dark"
+                  class=" text-3xl text-center lg:text-left lg:text-5xl xl:6xl font-extrabold tracking-wide text-neut-dark"
                 >
                   A Simple Bookmark Manager
                 </h2>
-                <p class="pt-6 leading-9">
+                <p class=" text-xl pt-6 leading-9">
                   A clean and simple interface to organize your favourite
                   websites. Open a new browser tab and see your sites load
                   instantly. Try it for free.
                 </p>
-                <div class="flex mt-6">
+                <div
+                  class=" text-xl flex flex-wrap justify-center lg:justify-start mt-6"
+                >
                   <PryBtn name="Get it on Chrome " />
-                  <SecBtn name=" Get it on Firefox" />
+                  <SecBtn class="mt-6 lg:mt-0" name=" Get it on Firefox" />
                 </div>
               </div>
             </div>
 
-            <div class="">
+            <div class="order-first lg:order-last">
               <img
-                class="absolute inset-y-28 right-16 z-10"
+                class="absolute top-0 lg:inset-y-28 right-2 lg:right-0 xl:right-16 z-10"
                 src="~/assets/images/illustration-hero.svg"
                 alt=""
               />
               <img
-                class="absolute right-0 -bottom-1 width"
+                class="absolute -right-20 lg:right-0 bottom-72 lg:-bottom-1 width"
                 src="~/assets/images/shape1.svg"
                 alt=""
               />
@@ -43,14 +49,16 @@
     <!-- hero-section-ends -->
 
     <!-- feature-section-starts -->
-    <section class="feature-section">
+    <section class="feature-section pt-56 lg:pt-0">
       <div class="relative">
-        <div class="w-3/4 m-auto text-xl text-neut">
+        <div class="w-11/12 xl:w-3/4 m-auto text-xl text-neut">
           <div>
-            <h3 class="text-4xl font-bold text-center text-neut-dark">
+            <h3
+              class=" text-2xl lg:text-4xl font-bold text-center text-neut-dark"
+            >
               Features
             </h3>
-            <p class="text-center w-6/12 m-auto leading-9 pt-6">
+            <p class="text-center w-full lg:w-6/12 m-auto leading-9 pt-6">
               Our aim is to make it quick and easy for you to access your
               favourite websites. Your bookmarks sync between your devices so
               you can access them on the go.
@@ -63,20 +71,22 @@
     <!-- feature-section-ends -->
 
     <!-- extension section starts -->
-    <section class="extension-section mt-10">
-      <div class="w-3/4 m-auto text-xl text-neut">
+    <section class="extension-section lg:mt-10">
+      <div class="w-11/12 xl:w-3/4 m-auto text-xl text-neut">
         <div>
-          <h3 class="text-4xl font-bold text-center text-neut-dark pt-16">
+          <h3
+            class="text-2xl lg:text-4xl font-bold text-center text-neut-dark pt-16"
+          >
             Download the extension
           </h3>
-          <p class="text-center w-6/12 m-auto leading-9 pt-6">
+          <p class="text-center lg:w-6/12 m-auto leading-9 pt-6">
             We’ve got more browsers in the pipeline. Please do let us know if
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </div>
         <div class=" mt-14">
-          <div class="grid grid-cols-3 gap-2">
-            <div class="pb-40">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-2">
+            <div class="lg:pb-40">
               <div
                 class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl"
               >
@@ -100,7 +110,7 @@
 
             <div class="">
               <div
-                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl mt-20"
+                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-20"
               >
                 <img
                   class="pt-10"
@@ -122,7 +132,7 @@
 
             <div class="">
               <div
-                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl mt-40"
+                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-40"
               >
                 <img
                   class="pt-10"
@@ -147,31 +157,33 @@
     </section>
     <!-- extension section endss -->
     <!-- FAQ section starts -->
-    <section class="faq-section mb-40">
-      <div class="w-3/4 m-auto text-xl text-neut">
+    <section class="faq-section">
+      <div class="w-11/12 xl:w-3/4 m-auto text-xl text-neut">
         <div>
-          <h3 class="text-4xl font-bold text-center text-neut-dark pt-16">
+          <h3
+            class=" text-2xl lg:text-4xl font-bold text-center text-neut-dark pt-16"
+          >
             Frequently Asked Questions
           </h3>
-          <p class="text-center w-6/12 m-auto leading-9 pt-6">
+          <p class="text-center lg:w-6/12 m-auto leading-9 pt-6">
             Here are some of our FAQs. If you have any other questions you’d
             like answered please feel free to email us..
           </p>
         </div>
 
-        <div class="w-6/12 m-auto mt-10 leading-9">
+        <div class="lg:w-6/12 m-auto mt-10 leading-9">
           <Accordion>
             <Accordion-item>
               <!-- This slot will handle the title/header of the accordion and is the part you click on -->
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
                   >
                     What is Bookmark?
                   </h3>
                   <img
-                    class="w-8 h-5"
+                    class=" w-6 h-3 lg:w-8 lg:h-5"
                     src="~/assets/images/icon-arrow.svg"
                     alt="icon"
                   />
@@ -192,12 +204,12 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
                   >
                     How can I request a new browser?
                   </h3>
                   <img
-                    class="w-8 h-5"
+                    class="w-6 h-3 lg:w-8 lg:h-5"
                     src="~/assets/images/icon-arrow.svg"
                     alt="icon"
                   />
@@ -218,12 +230,12 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
                   >
                     Is there a mobile app?
                   </h3>
                   <img
-                    class="w-8 h-5"
+                    class="w-6 h-3 lg:w-8 lg:h-5"
                     src="~/assets/images/icon-arrow.svg"
                     alt="icon"
                   />
@@ -244,12 +256,12 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xltext-2xl font-medium hover:text-pry-red text-neut-dark"
                   >
                     What about other Chromium browsers?
                   </h3>
                   <img
-                    class="w-8 h-5"
+                    class="w-6 h-3 lg:w-8 lg:h-5"
                     src="~/assets/images/icon-arrow.svg"
                     alt="icon"
                   />
@@ -270,12 +282,12 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
                   >
                     What is Bookmark?
                   </h3>
                   <img
-                    class="w-8 h-5"
+                    class="w-6 h-3 lg:w-8 lg:h-5"
                     src="~/assets/images/icon-arrow.svg"
                     alt="icon"
                   />
@@ -327,6 +339,6 @@ export default {
 .feature-section,
 .extension-section,
 .faq-section {
-  @apply mt-20;
+  @apply mt-20 lg:mt-32;
 }
 </style>

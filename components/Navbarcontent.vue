@@ -9,24 +9,26 @@
       </TabNav>
       <div class="">
         <Tab :isSelected="selected === 'Simple Bookmarking'">
-          <div class="grid grid-cols-2">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-0">
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute left-32 bottom-14"
+                  class=" z-10 absolute lg:left-14 xl:left-32 lg:bottom-0 bottom-200 left-auto right-auto"
                   src="~/assets/images/illustration-features-tab-1.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute left-0 -bottom-16"
+                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center pt-32 pb-24">
+            <div class="flex items-center lg:py-16 pt-96">
               <div>
-                <h3 class="text-4xl font-bold text-neut-dark pb-6 ">
+                <h3
+                  class=" text-2xl lg:text-4xl font-bold text-neut-dark pb-6 "
+                >
                   Bookmark in one click
                 </h3>
                 <p class="leading-9">
@@ -45,24 +47,26 @@
         </Tab>
 
         <Tab :isSelected="selected === 'Speedy Searching'">
-          <div class="grid grid-cols-2">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-0">
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute left-32 bottom-6"
+                  class=" z-10 absolute lg:left-14 xl:left-40 lg:-bottom-10 bottom-100 left-auto right-auto"
                   src="~/assets/images/illustration-features-tab-2.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute left-0 -bottom-16"
+                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center pt-32 pb-24">
+            <div class="flex items-center lg:py-16 pt-96">
               <div>
-                <h3 class="text-4xl font-bold text-neut-dark pb-6 ">
+                <h3
+                  class=" text-2xl lg:text-4xl font-bold text-neut-dark pb-6 "
+                >
                   Intelligent search
                 </h3>
                 <p class="leading-9">
@@ -81,24 +85,24 @@
         </Tab>
 
         <Tab :isSelected="selected === 'Easy Sharing'">
-          <div class="grid grid-cols-2">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-0">
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute left-32 bottom-10"
+                  class=" z-10 absolute lg:left-36 xl:left-52 lg:-bottom-3 bottom-100 left-auto right-auto"
                   src="~/assets/images/illustration-features-tab-3.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute left-0 -bottom-16"
+                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center pt-32 pb-24">
+            <div class="flex items-center lg:py-16 pt-96">
               <div>
-                <h3 class="text-4xl font-bold text-neut-dark pb-6 ">
+                <h3 class="text-2xl lg:text-4xl font-bold text-neut-dark pb-6 ">
                   Share your bookmarks
                 </h3>
                 <p class="leading-9">

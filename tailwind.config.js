@@ -25,6 +25,14 @@ module.exports = {
       letterSpacing: {
         morewider: ".2em",
         morewidest: ".25em"
+      },
+      inset: {
+        "200": "30rem",
+        "100": "26rem"
+      },
+      borderWidth: {
+        DEFAULT: "1px",
+        "0.5": "0.5px"
       }
     }
   },

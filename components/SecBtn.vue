@@ -2,7 +2,7 @@
   <div>
     <div
       role="button"
-      class=" font font-bold py-5 px-8 ml-8 shadow-lg rounded-xl"
+      class=" font-bold py-5 px-8 shadow-lg bg-white rounded-xl tracking-wider"
     >
       {{ name }}
     </div>
