@@ -2,6 +2,7 @@
   <div>
     <div class="mt-14">
       <TabNav
+        class="lg:mb-8"
         :tabs="['Simple Bookmarking', 'Speedy Searching', 'Easy Sharing']"
         :selected="selected"
         @selected="setSelected"
@@ -13,18 +14,18 @@
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute lg:left-14 xl:left-32 lg:bottom-0 bottom-200 left-auto right-auto"
+                  class=" relative z-10 lg:absolute lg:left-14 xl:left-32 lg:bottom-8 -bottom-8"
                   src="~/assets/images/illustration-features-tab-1.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
+                  class=" width relative lg:absolute -left-14 xl:left-0 lg:-bottom-16 bottom-16"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center lg:py-16 pt-96">
+            <div class="flex items-center lg:py-16 -mt-20 lg:mt-0">
               <div>
                 <h3
                   class=" text-2xl lg:text-4xl font-bold text-neut-dark pb-6 "
@@ -51,18 +52,18 @@
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute lg:left-14 xl:left-40 lg:-bottom-10 bottom-100 left-auto right-auto"
+                  class=" z-10 relative lg:absolute lg:left-14 xl:left-40 lg:-bottom-10 -bottom-8"
                   src="~/assets/images/illustration-features-tab-2.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
+                  class="width relative lg:absolute -left-14 xl:left-0 lg:-bottom-16 bottom-20"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center lg:py-16 pt-96">
+            <div class="flex items-center lg:py-16 -mt-20 lg:mt-0">
               <div>
                 <h3
                   class=" text-2xl lg:text-4xl font-bold text-neut-dark pb-6 "
@@ -89,18 +90,18 @@
             <div class="h-full flex items-center ">
               <div>
                 <img
-                  class=" z-10 absolute lg:left-36 xl:left-52 lg:-bottom-3 bottom-100 left-auto right-auto"
+                  class=" z-10 relative lg:absolute lg:left-36 xl:left-52 lg:-bottom-3 -bottom-8"
                   src="~/assets/images/illustration-features-tab-3.svg"
                   alt=""
                 />
                 <img
-                  class="width absolute -left-14 xl:left-0 lg:-bottom-16 bottom-96"
+                  class="width relative lg:absolute -left-14 xl:left-0 lg:-bottom-16 bottom-20"
                   src="~/assets/images/shape2.svg"
                   alt=""
                 />
               </div>
             </div>
-            <div class="flex items-center lg:py-16 pt-96">
+            <div class="flex items-center lg:py-16 -mt-20 lg:mt-0">
               <div>
                 <h3 class="text-2xl lg:text-4xl font-bold text-neut-dark pb-6 ">
                   Share your bookmarks

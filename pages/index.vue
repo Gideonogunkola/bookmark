@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <!-- hero-section-starts -->
     <section class="hero-section">
       <div class="relative">
@@ -8,7 +8,7 @@
             class=" mt-14 lg:mt-0 grid grid-cols-1 lg:grid-cols-2 gap-10 content-area"
           >
             <div
-              class="h-full flex items-center order-last lg:order-first mt-44 lg:mt-0"
+              class="h-full flex items-center order-last lg:order-first -mt-20 lg:mt-0"
             >
               <div>
                 <h2
@@ -35,12 +35,12 @@
 
             <div class="order-first lg:order-last">
               <img
-                class="absolute top-0 lg:inset-y-28 right-2 lg:right-0 xl:right-16 z-10"
+                class=" relative lg:absolute top-0 lg:inset-y-28 lg:right-0 xl:right-16 z-10"
                 src="~/assets/images/illustration-hero.svg"
                 alt=""
               />
               <img
-                class="absolute -right-20 lg:right-0 bottom-72 lg:-bottom-1 width"
+                class="relative lg:absolute -right-20 lg:right-0 bottom-40 lg:-bottom-1 width"
                 src="~/assets/images/shape1.svg"
                 alt=""
               />
@@ -52,7 +52,7 @@
     <!-- hero-section-ends -->
 
     <!-- feature-section-starts -->
-    <section class="feature-section pt-56 lg:pt-0">
+    <section class="feature-section pt-72 lg:pt-0">
       <div class="relative">
         <div class="w-11/12 xl:w-3/4 m-auto text-xl text-neut">
           <div>

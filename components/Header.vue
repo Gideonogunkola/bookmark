@@ -51,7 +51,7 @@
 
     <!-- mobile-menu -->
     <transition name="slide-fade">
-      <div v-if="load" class="fixed top-0 h-screen z-50 duration-300 ease-in">
+      <div v-if="load" class="fixed top-0 h-screen z-50 duration-100 ease-out">
         <div class="bg-neut-dark bg-opacity-95 h-screen w-screen">
           <div class="w-4/5 m-auto flex justify-between h-28">
             <div class="flex items-center">
@@ -136,7 +136,7 @@ export default {
 <style>
 .slide-fade-enter-active,
 .slide-fade-leave-active {
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.1s;
   transform: translateX(100%);
 }
 .slide-fade-enter,
