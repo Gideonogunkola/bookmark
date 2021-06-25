@@ -88,10 +88,12 @@
           </p>
         </div>
         <div class=" mt-14">
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-2">
-            <div class="lg:pb-40">
+          <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-2">
+            <div
+              class="lg:pb-40 justify-items-center lg:justify-items-start m-auto lg:m-0"
+            >
               <div
-                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl"
+                class="lg:w-11/12   flex flex-col items-center justify-center shadow-lg rounded-2xl"
               >
                 <img
                   class="pt-10"
@@ -111,9 +113,11 @@
               </div>
             </div>
 
-            <div class="">
+            <div
+              class="justify-items-center lg:justify-items-start m-auto lg:m-0"
+            >
               <div
-                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-20"
+                class="lg:w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-20"
               >
                 <img
                   class="pt-10"
@@ -133,9 +137,11 @@
               </div>
             </div>
 
-            <div class="">
+            <div
+              class="justify-items-center lg:justify-items-start m-auto lg:m-0"
+            >
               <div
-                class="w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-40"
+                class="lg:w-11/12  flex flex-col items-center justify-center shadow-lg rounded-2xl lg:mt-40"
               >
                 <img
                   class="pt-10"
