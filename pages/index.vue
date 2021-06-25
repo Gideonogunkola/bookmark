@@ -88,7 +88,7 @@
           </p>
         </div>
         <div class=" mt-14">
-          <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-2">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-20 lg:gap-2">
             <div
               class="lg:pb-40 justify-items-center lg:justify-items-start m-auto lg:m-0"
             >
@@ -176,7 +176,7 @@
           </h3>
           <p class="text-center lg:w-6/12 m-auto leading-9 pt-6">
             Here are some of our FAQs. If you have any other questions you’d
-            like answered please feel free to email us..
+            like answered please feel free to email us.
           </p>
         </div>
 
@@ -187,7 +187,7 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red duration-300 ease-linear text-neut-dark"
                   >
                     What is Bookmark?
                   </h3>
@@ -213,7 +213,7 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red duration-300 ease-linear text-neut-dark"
                   >
                     How can I request a new browser?
                   </h3>
@@ -239,7 +239,7 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red duration-300 ease-linear text-neut-dark"
                   >
                     Is there a mobile app?
                   </h3>
@@ -265,7 +265,7 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-xl lg:text-2xltext-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red duration-300 ease-linear text-neut-dark"
                   >
                     What about other Chromium browsers?
                   </h3>
@@ -291,9 +291,9 @@
               <template slot="accordion-trigger" class="w-6/12">
                 <div class="w-full flex justify-between items-center">
                   <h3
-                    class="text-xl lg:text-2xl font-medium hover:text-pry-red text-neut-dark"
+                    class="text-xl lg:text-2xl font-medium hover:text-pry-red duration-300 ease-linear text-neut-dark"
                   >
-                    What is Bookmark?
+                    How Can I bookmark?
                   </h3>
                   <img
                     class="w-6 h-3 lg:w-8 lg:h-5"

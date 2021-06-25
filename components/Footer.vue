@@ -28,7 +28,7 @@
               placeholder="Enter your email address"
             />
             <input
-              class="p-6 w-full lg:w-max bg-pry-red text-white rounded-xl mt-4 lg:mt-0 lg:ml-4"
+              class="p-6 w-full lg:w-max hover:bg-transparent duration-300 ease-linear hover:border-pry-red border-2 border-pry-red bg-pry-red text-white rounded-xl mt-4 lg:mt-0 lg:ml-4"
               type="submit"
               value="Contact us"
             />
@@ -46,18 +46,25 @@
             <img src="~/assets/images/logo-bookmark-2.svg" alt="" />
           </div>
           <div class=" flex flex-col lg:flex-row w-full items-center uppercase">
-            <nuxt-link class="pt-12 lg:pt-0 lg:pl-14 hover:text-pry-red" to="/"
+            <nuxt-link
+              class="pt-12 lg:pt-0 lg:pl-14 duration-300 ease-linear hover:text-pry-red"
+              to="/"
               >Features</nuxt-link
             >
-            <nuxt-link class="pt-6 lg:pt-0 lg:pl-14 hover:text-pry-red" to="/"
+            <nuxt-link
+              class="pt-6 lg:pt-0 lg:pl-14 duration-300 ease-linear hover:text-pry-red"
+              to="/"
               >Pricing</nuxt-link
             >
-            <nuxt-link class="pt-6 lg:pt-0 lg:pl-14 hover:text-pry-red" to="/"
+            <nuxt-link
+              class="pt-6 lg:pt-0 lg:pl-14 duration-300 ease-linear hover:text-pry-red"
+              to="/"
               >Contact</nuxt-link
             >
           </div>
           <div
-            class="flex justify-center lg:justify-end pt-12 pb-2 lg:pt-0 lg:pb-0 ">
+            class="flex justify-center lg:justify-end pt-12 pb-2 lg:pt-0 lg:pb-0 "
+          >
             <img
               class="pr-12"
               src="~/assets/images/icon-facebook.svg"

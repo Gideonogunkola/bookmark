@@ -38,7 +38,7 @@
                   you manage your favourite sites.
                 </p>
                 <button
-                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6"
+                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6 hover:bg-white hover:text-neut duration-300 ease-linear"
                 >
                   More Info
                 </button>
@@ -76,7 +76,7 @@
                   bookmarks.It gives you complete control.
                 </p>
                 <button
-                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6"
+                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6 hover:bg-white hover:text-neut duration-300 ease-linear"
                 >
                   More Info
                 </button>
@@ -112,7 +112,7 @@
                   button. It gives you complete control.
                 </p>
                 <button
-                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6"
+                  class=" font-bold py-5 px-8 shadow-lg bg-pry text-white rounded-xl mt-6 hover:bg-white hover:text-neut duration-300 ease-linear"
                 >
                   More Info
                 </button>

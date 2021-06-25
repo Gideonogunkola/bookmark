@@ -23,23 +23,29 @@
         >
           <ul class="flex w-full justify-evenly">
             <li>
-              <div class="h-14 pt-4">
+              <div
+                class="h-14 pt-4 hover:text-pry-red duration-300 ease-linear"
+              >
                 <nuxt-link to="/">Features</nuxt-link>
               </div>
             </li>
             <li>
-              <div class="h-14 pt-4">
+              <div
+                class="h-14 pt-4 hover:text-pry-red duration-300 ease-linear"
+              >
                 <nuxt-link to="/">Pricing</nuxt-link>
               </div>
             </li>
             <li>
-              <div class="h-14 pt-4">
+              <div
+                class="h-14 pt-4 hover:text-pry-red duration-300 ease-linear"
+              >
                 <nuxt-link to="/">Contact</nuxt-link>
               </div>
             </li>
             <li>
               <div
-                class=" font-bold h-14 bg-pry-red text-white py-4 px-12 rounded-xl shadow-lg"
+                class=" font-bold h-14 bg-pry-red hover:bg-transparent duration-300 ease-linear border-pry-red hover:text-pry-red hover:border-pry-red border-2 text-white py-4 px-12 rounded-xl shadow-lg"
               >
                 <nuxt-link to="/">Login</nuxt-link>
               </div>
@@ -70,28 +76,28 @@
             <ul class="flex flex-col w-full">
               <li>
                 <div
-                  class="py-5 border-white border-t-0.5 text-center tracking-widest"
+                  class="py-5 border-white hover:text-pry-red duration-300 ease-linear border-t-0.5 text-center tracking-widest"
                 >
                   <nuxt-link to="/">Features</nuxt-link>
                 </div>
               </li>
               <li>
                 <div
-                  class="py-5 border-white border-t-0.5 text-center tracking-widest"
+                  class="py-5 border-white hover:text-pry-red duration-300 ease-linear border-t-0.5 text-center tracking-widest"
                 >
                   <nuxt-link to="/">Pricing</nuxt-link>
                 </div>
               </li>
               <li>
                 <div
-                  class="py-5 border-white border-t-0.5 border-b-0.5 text-center tracking-widest"
+                  class="py-5 border-white hover:text-pry-red duration-300 ease-linear border-t-0.5 border-b-0.5 text-center tracking-widest"
                 >
                   <nuxt-link to="/">Contact</nuxt-link>
                 </div>
               </li>
               <li>
                 <div
-                  class=" font-bold h-14 bg-transparent border-2 border-white text-white py-4 px-12 rounded-xl shadow-lg text-center mt-6 tracking-widest"
+                  class=" font-bold h-14 bg-transparent hover:bg-pry-red hover:border-pry-red border-2 border-white text-white py-4 px-12 rounded-xl shadow-lg text-center mt-6 tracking-widest duration-300 ease-linear"
                 >
                   <nuxt-link to="/">Login</nuxt-link>
                 </div>
@@ -136,11 +142,11 @@ export default {
 <style>
 .slide-fade-enter-active,
 .slide-fade-leave-active {
-  transition: all ease-in-out 0.1s;
+  transition: all ease 0.2s;
   transform: translateX(100%);
 }
 .slide-fade-enter,
 .slide-fade-leave-to {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 </style>
