@@ -51,7 +51,7 @@
 
     <!-- mobile-menu -->
     <transition name="slide-fade">
-      <div v-if="load" class="absolute top-0 z-50 duration-300 ease-in">
+      <div v-if="load" class="fixed top-0 h-screen z-50 duration-300 ease-in">
         <div class="bg-neut-dark bg-opacity-95 h-screen w-screen">
           <div class="w-4/5 m-auto flex justify-between h-28">
             <div class="flex items-center">
