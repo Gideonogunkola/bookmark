@@ -50,63 +50,65 @@
     </div>
 
     <!-- mobile-menu -->
-    <div v-if="load" class="absolute top-0 z-50">
-      <div class="bg-neut-dark bg-opacity-95 h-screen w-screen">
-        <div class="w-4/5 m-auto flex justify-between h-28">
-          <div class="flex items-center">
-            <nuxt-link to="/">
-              <img src="~/assets/images/logo-bookmark-2.svg" alt="" />
-            </nuxt-link>
+    <transition name="slide-fade">
+      <div v-if="load" class="absolute top-0 z-50 duration-300 ease-in">
+        <div class="bg-neut-dark bg-opacity-95 h-screen w-screen">
+          <div class="w-4/5 m-auto flex justify-between h-28">
+            <div class="flex items-center">
+              <nuxt-link to="/">
+                <img src="~/assets/images/logo-bookmark-2.svg" alt="" />
+              </nuxt-link>
+            </div>
+            <div class="flex items-center" @click="shower">
+              <img src="~/assets/images/icon-close.svg" alt="" />
+            </div>
           </div>
-          <div class="flex items-center" @click="shower">
-            <img src="~/assets/images/icon-close.svg" alt="" />
-          </div>
-        </div>
 
-        <div
-          class="flex items-center text-base font-medium uppercase text-white w-4/5 m-auto"
-        >
-          <ul class="flex flex-col w-full">
-            <li>
-              <div
-                class="py-5 border-white border-t-0.5 text-center tracking-widest"
-              >
-                <nuxt-link to="/">Features</nuxt-link>
-              </div>
-            </li>
-            <li>
-              <div
-                class="py-5 border-white border-t-0.5 text-center tracking-widest"
-              >
-                <nuxt-link to="/">Pricing</nuxt-link>
-              </div>
-            </li>
-            <li>
-              <div
-                class="py-5 border-white border-t-0.5 border-b-0.5 text-center tracking-widest"
-              >
-                <nuxt-link to="/">Contact</nuxt-link>
-              </div>
-            </li>
-            <li>
-              <div
-                class=" font-bold h-14 bg-transparent border-2 border-white text-white py-4 px-12 rounded-xl shadow-lg text-center mt-6 tracking-widest"
-              >
-                <nuxt-link to="/">Login</nuxt-link>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="flex justify-center lg:justify-end pt-44 pb-2  ">
-          <img
-            class="pr-12"
-            src="~/assets/images/icon-facebook.svg"
-            alt="facebook-icon"
-          />
-          <img src="~/assets/images/icon-twitter.svg" alt="twitter-icon" />
+          <div
+            class="flex items-center text-base font-medium uppercase text-white w-4/5 m-auto"
+          >
+            <ul class="flex flex-col w-full">
+              <li>
+                <div
+                  class="py-5 border-white border-t-0.5 text-center tracking-widest"
+                >
+                  <nuxt-link to="/">Features</nuxt-link>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="py-5 border-white border-t-0.5 text-center tracking-widest"
+                >
+                  <nuxt-link to="/">Pricing</nuxt-link>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="py-5 border-white border-t-0.5 border-b-0.5 text-center tracking-widest"
+                >
+                  <nuxt-link to="/">Contact</nuxt-link>
+                </div>
+              </li>
+              <li>
+                <div
+                  class=" font-bold h-14 bg-transparent border-2 border-white text-white py-4 px-12 rounded-xl shadow-lg text-center mt-6 tracking-widest"
+                >
+                  <nuxt-link to="/">Login</nuxt-link>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-center lg:justify-end pt-44 pb-2  ">
+            <img
+              class="pr-12"
+              src="~/assets/images/icon-facebook.svg"
+              alt="facebook-icon"
+            />
+            <img src="~/assets/images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
         </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 
@@ -120,7 +122,7 @@ export default {
   },
   methods: {
     loader() {
-      this.show = false;
+      setTimeout(() => (this.show = false), 200);
       this.load = true;
     },
     shower() {
@@ -131,4 +133,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all ease-in-out 0.2s;
+  transform: translateX(100%);
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  opacity: 0.4;
+}
+</style>

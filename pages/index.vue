@@ -12,7 +12,7 @@
             >
               <div>
                 <h2
-                  class=" text-3xl text-center lg:text-left lg:text-5xl xl:6xl font-extrabold tracking-wide text-neut-dark"
+                  class=" text-3xl text-center lg:text-left lg:text-5xl xl:text-6xl font-extrabold tracking-wide text-neut-dark"
                 >
                   A Simple Bookmark Manager
                 </h2>
@@ -25,7 +25,10 @@
                   class=" text-xl flex flex-wrap justify-center lg:justify-start mt-6"
                 >
                   <PryBtn name="Get it on Chrome " />
-                  <SecBtn class="mt-6 lg:mt-0" name=" Get it on Firefox" />
+                  <SecBtn
+                    class="mt-6 lg:mt-0 lg:ml-8"
+                    name=" Get it on Firefox"
+                  />
                 </div>
               </div>
             </div>

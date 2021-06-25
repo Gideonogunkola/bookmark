@@ -1,9 +1,9 @@
 <template>
-  <div class="w-11/12 lg:w-8/12 m-auto py-3">
-    <div class="flex flex-wrap justify-around cursor-pointer lg:shadow-lg px-0">
+  <div class="lg:w-8/12 w-72 m-auto py-3">
+    <div class="flex flex-wrap justify-around cursor-pointer first shadow-lg">
       <div v-for="tab in tabs" :key="tab">
         <div
-          class=" first w-screen mx-6 lg:mx-0 lg:w-full border-gray-300 border-b-2 lg:border-0 te"
+          class=" w-72 mx-6 lg:mx-0 lg:w-full border-gray-300 border-b lg:border-0"
           :class="{ active: tab === selected }"
         >
           <div class=" text-center py-5 px-8 " @click="setTab(tab)">
@@ -40,7 +40,10 @@ export default {
 .active {
   @apply border-b-4 border-pry-red;
 }
-.first:first-child {
-  border-top: 2px solid #ebebeb;
+
+@media screen and (max-width: 992px) {
+  .first:first-child {
+    border-top: 1px solid #ebebeb;
+  }
 }
 </style>

@@ -9,5 +9,6 @@
 <style>
 html {
   font-family: "Rubik", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 </style>

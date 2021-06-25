@@ -57,8 +57,7 @@
             >
           </div>
           <div
-            class="flex justify-center lg:justify-end pt-12 pb-2 lg:pt-0 lg:pb-0 "
-          >
+            class="flex justify-center lg:justify-end pt-12 pb-2 lg:pt-0 lg:pb-0 ">
             <img
               class="pr-12"
               src="~/assets/images/icon-facebook.svg"

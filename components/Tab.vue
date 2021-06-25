@@ -1,19 +1,17 @@
 <template>
   <div v-if="isSelected">
-      <slot></slot>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-    props:{
-        isSelected:{
-            type: Boolean,
-        }
+  props: {
+    isSelected: {
+      type: Boolean
     }
-}
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
